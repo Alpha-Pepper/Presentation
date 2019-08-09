@@ -91,7 +91,9 @@ a{
 @media screen and (min-width: 769px){
     .media-screen{
         display: none;
+        
     }
+    
 }
 @media screen and (max-width: 414px){
     .navigation-mobile{
@@ -117,6 +119,7 @@ a{
         margin-left: 3%;
         text-align: center;
         padding-top: 28px;
+       width: auto;
        
     }
     
@@ -141,6 +144,7 @@ a{
     .header-headline{
         font-size: 30px;
         margin-top: 50px;
+        margin-left: 10%;
     }
 }
 .header-text{
@@ -154,7 +158,7 @@ a{
     .header-text{
         
         font-size: 16px;
-        
+        margin-left: 10%;
        
         
     }
@@ -182,6 +186,9 @@ a{
 @media screen and (max-width: 414px){
     .padding-bottom{
         padding-bottom: 20px;
+    }
+    .read-more{
+        margin-left: 10%;
     }
 }
 .home{
@@ -223,16 +230,17 @@ a{
     width: 30%;
     
 }
-@media screen and (max-width: 414px){
-    .home-information-item{
-        width: 100%;
-       
-}
-}
 @media screen and (max-width: 768px){
     .home-information-item{
         margin-left: 3%;
     }
+}
+@media screen and (max-width: 414px){
+    .home-information-item{
+        width: 100%;
+        margin-left: 0;
+       
+}
 }
 .home-information-headline{
     margin-top: 0;
@@ -294,6 +302,7 @@ a{
         width: 100%;
         margin-right: auto;
         margin-left: auto;
+
 }
 }
 
@@ -389,7 +398,7 @@ a{
 }
 @media screen and (max-width: 414px){
     .home-our-team-name-item{
-        width: 55%;
+        width: auto;
         padding-left: 142px;
         margin-bottom: 30px;
        
@@ -440,7 +449,6 @@ a{
 .footer{
     margin-left: 16%;
     margin-right: 16%;
-    height: 93px;
     border: 2px solid #e6eaed;
     border-left: none;
     border-right: none;
@@ -473,6 +481,7 @@ a{
     color: #9aa0ab;
     font-weight: 500;
     line-height: 20px;
+    margin-bottom: 47px;
 }
 @media screen and (max-width: 1024px){
     .copyright{
@@ -483,6 +492,6 @@ a{
 @media screen and (max-width: 414px){
     .copyright{
         margin-left: 10%;
-        margin-bottom: 80px;
+        
     }
 }
